@@ -170,7 +170,7 @@ import { ref, onMounted, watch, onUnmounted, nextTick, computed } from 'vue';
 import eventBus from '../components/event-bus.js';
 import { storeToRefs } from 'pinia';
 import { useRouter } from 'vue-router';
-import { useDataStore } from '../components/datastore.js';
+import { useDataStore } from '../components/dataStore.js';
 
 // ========== 数据存储 ==========
 const dataStore = useDataStore();
